@@ -1,0 +1,58 @@
+.tech-wrapper {
+  width: 100%;
+  margin: 4rem 0;
+  position: relative;
+
+  .bg-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.2;
+    z-index: -1;
+  }
+
+  .tech {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+
+    .tech-info {
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      flex-direction: column;
+      p {
+        width: 80%;
+        font-size: 1.7rem;
+        color: #acacac;
+      }
+      .tech-box {
+        display: flex;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        gap: 2rem;
+        margin: 2rem 0;
+        div {
+          width: 300px;
+
+          .icon {
+            font-size: 2rem;
+          }
+          .title {
+            font-size: 2rem;
+            font-weight: 700;
+          }
+          .des {
+            font-size: 1.4rem;
+            color: #acacac;
+          }
+        }
+      }
+    }
+  }
+}

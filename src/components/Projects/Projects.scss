@@ -1,0 +1,30 @@
+.projects-wrapper {
+  width: 100%;
+  margin: 4rem 0;
+  position: relative;
+
+  .bg-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.2;
+    z-index: -1;
+  }
+
+  .project {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    .project-list {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 3rem;
+    }
+  }
+}
